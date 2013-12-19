@@ -1,0 +1,321 @@
+/** using classes without ID's becoming a modern way to write CSS code */
+.global { background: url(../images/bg.png) repeat 0 0; display: block; }
+.container {
+    width: 1020px;
+    margin: 0px auto;
+    padding: 0;
+    border: 1px solid #E5E5E5;
+    border-width: 0 1px 1px;
+    box-shadow: 0 1px 4px -1px rgba(200, 200, 200, 0.7);
+    background: #fff url(../images/footer-rainbow.png) repeat-x 100% 100%;
+}
+.navbar,
+header,
+.navigation,
+.sliders,
+.brands,
+.post,
+.widgets {
+    border-bottom: 1px solid #E6E6E6;
+    margin: 20px 38px;
+}
+.sliders, .navigation {
+    border: none
+}
+.widgets input[type=email] { width: 110px }
+header .description {
+    float: left;
+    font-family: 'Alex Brush',cursive,arial;
+    font-size: 26px;
+    line-height: 1.1em;
+    padding: 0 0 0 30px;
+    text-align: center;
+    width: 220px;
+}
+.navbar .support {
+    float: left;
+    color: #707070;
+    font-style: italic;
+}
+.widgets address { padding: 0 0 10px 0 }
+.widgets address span { text-transform: uppercase }
+.widgets .widget {
+    float: left;
+    width: 15%;
+    margin: 10px 10px 10px;
+    padding-top: 15px;
+}
+.widgets .widget-large { width: 22% }
+.widgets .widget:last-child {
+    margin-right: 0;
+    width: 23%;
+}
+.widgets .social { overflow: hidden }
+.widgets .social li { float: left }
+.widgets .social li .icon-pinterest { background: url(../images/social/icon-p.png) no-repeat }
+.widgets .social li .icon-facebook { background: url(../images/social/icon-fb.png) no-repeat }
+.widgets .social li .icon-twitter { background: url(../images/social/icon-twitter.png) no-repeat }
+.widgets .social li .icon-youtube { background: url(../images/social/icon-you.png) no-repeat }
+.widgets .social li .icon-google { background: url(../images/social/icon-go.png) no-repeat }
+.widgets .social li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    float: left;
+    margin: 0 10px 5px 0;
+}
+.post .post-sign {
+    float: right;
+    padding: 10px 0;
+    font-family: 'Alex Brush', cursive, arial;
+    font-size: 22px;
+}
+.navigation li {
+    float: left;
+    text-transform: uppercase;
+    padding: 0em 36px 1em 0;
+}
+.navigation li:last-child { padding-right: 0 }
+.navigation li a { text-decoration: none }
+.navigation li a:hover { color: #999 }
+header form {
+    float: right;
+    position: relative;
+}
+header form input[type=submit] {
+    background: url(../images/search.png) no-repeat 100% 50%;
+    border: none;
+    width: 20px;
+    text-indent: -9999px;
+    position: absolute;
+    right: 12px;
+    top: 5px;
+}
+header form input[type=email] { width: 160px }
+.widgets li {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.widgets li a { text-decoration: none }
+.widgets li a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+.widgets h3 {
+    color: #7494B7;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.navbar nav {
+    float: right;
+    font-family: georgia, arial;
+    font-style: italic;
+    font-size: 13px;
+}
+.navbar nav li strong.dot {
+    padding: 0 5px;
+    font-weight: bold;
+}
+.navbar nav li > strong {
+    color: #000;
+    padding-left: 10px;
+}
+.navbar nav li:last-child {
+    border: none;
+    padding-right: 0;
+}
+.navbar nav li > a {
+    color: #707070;
+    text-decoration: none;
+}
+.navbar nav li > a:hover { color: #919191 }
+.navbar nav ul li {
+    display: block;
+    height: 20px;
+    float: left;
+    padding: 4px 1em;
+    border-right: 1px solid #E6E6E6;
+}
+.brands li { padding: 1px }
+.widgets p { font-style: italic }
+.brands li {
+    float: left;
+    margin: 0 24px 10px 0;
+    text-align: center;
+}
+.brands li:first-child {
+    width: 190px;
+    margin: 0 35px 0 0;
+}
+.brands li:first-child a:hover { border-color: #eee }
+.brands li:last-child { margin-right: 0 }
+.brands li .img {
+    display: block;
+    border: 0px solid #eee;
+    margin-bottom: 10px;
+}
+.brands li a { text-decoration: none }
+.brands li a:hover {
+    opacity: 1;
+    border-color: #aaa;
+}
+.brands li a { opacity: .8 }
+.brands h2 {
+    color: #7494B7;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+.brands p {
+    font-family: 'Alex Brush', cursive, arial;
+    font-size: 23px;
+    padding: 10px 0;
+}
+.post h2 { color: #7494B7 }
+/** rainbow */
+#rainbow {
+    background: url(../images/top-navbar-bg.png) repeat-x 0 0;
+    height: 7px;
+}
+/** navbar */
+.navbar {
+    overflow: hidden;
+    border-bottom: 1px solid #E6E6E6;
+    margin-top: 0;
+    padding-top: 15px;
+}
+.support a {
+    float: right;
+    margin-top: -6px;
+    margin-left: 10px;
+    border: 1px solid #eee;
+    padding: 2px;
+    display: block;
+    text-decoration: none;
+}
+/* hack Chrome / Safari */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    .support a { margin-top: -24px }
+}
+.support .button-red {
+    /** We can use CSS3 gradient as well 
+        background: -moz-linear-gradient(center top , #fff 0%, #FFECEC 100%) repeat scroll 0 0 #fff;
+        background: -webkit-linear-gradient(center top , #fff 0%, #FFECEC 100%) repeat scroll 0 0 #fff;
+        
+        */
+    background: url(../images/input-submit-bg.jpg) repeat-x 0 50%;
+    font-style: normal;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: inherit;
+    padding: 2px 9px;
+    font-size: 11px;
+    display: block;
+    text-align: center;
+    border: 1px solid #eee;
+}
+.support span { padding-bottom: 0px }
+/** header */
+header {
+    padding: 5px 0 10px;
+    height: 70px;
+    background: url(../images/logo.png) no-repeat 50% 30%;
+}
+/** navigation */
+.navigation {
+    clear: both;
+    overflow: hidden;
+}
+/** brands */
+.brands {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+/** posts */
+.post {
+    overflow: hidden;
+    border: none;
+}
+/* footer */
+footer { background: url(../images/footer_bg.jpg) repeat-x }
+footer span.sep { padding: 2px 4px }
+footer .powered {
+    font-family: 'Doppio One', sans-serif, arial;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: 20px;
+}
+footer .inner {
+    padding: 1em 2em;
+    overflow: hidden;
+}
+footer .logo {
+    float: right;
+    padding: 1em 2em;
+}
+footer .menu {
+    float: left;
+    color: #ADADAD;
+    padding: 1em 2em;
+}
+footer p { margin: 0 }
+.widgets .btn-red { border-color: #eee }
+.widgets a.btn { text-decoration: none }
+.widgets {
+    border: none;
+    overflow: hidden;
+    background: url(../images/widgets_bg.jpg) no-repeat 50% 0%;
+}
+/** misc */
+span.input-cover {
+    border: 1px solid #F0F0F0;
+    padding: 8px 0px 8px 2px;
+    margin-right: 6px;
+}
+input[type=email],
+input[type=password] {
+    border: none;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    padding: 6px;
+    background: url(../images/input-text-bg.jpg) repeat-x 0 50%;
+}
+.btn {
+    padding: 8px 2px;
+    border: 1px solid #eee;
+    background: #fff;
+}
+.btn-red {
+    background: url(../images/input-submit-bg.jpg) repeat-x 0 50%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px 8px;
+    border: 1px solid #FFE8E8;
+}
+.btn-red:hover,
+.btn-red:focus { /** you can add some effects here */:  }
+/** footer */
+footer .inner {
+    clear: both;
+    margin: 0px auto 100px;
+    width: 1020px;
+}
+/** sidebar */
+.sidebar {
+    width: 280px;
+    border: 1px solid #eee;
+    margin: 20px 38px;
+    border: 1px solid #eee;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 4px 10px -1px rgba(200, 200, 200, 0.7);
+}
+.sidebar fieldset { padding: 6px }
+.sidebar h3 {
+    color: #7494B7;
+    display: block;
+    border-bottom: 1px dotted #7494B7;
+    padding: 3px;
+    font-size: 18px;
+}
+.sidebar label { display: block }

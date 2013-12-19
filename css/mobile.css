@@ -1,0 +1,250 @@
+/* #Media Queries
+================================================== */
+ 
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+ 
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+ 
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    
+      .container,
+    footer .inner { width: 705px }
+    .support { margin-bottom: 10px }
+    .support a {
+        float: none;
+        clear: both;
+        margin-top: 6px;
+        margin-left: 0;
+    }
+    .navbar,
+    header,
+    .navigation,
+    .sliders,
+    .brands,
+    .post,
+    .widgets {
+        border-bottom: 1px solid #E6E6E6;
+        margin: 10px;
+    }
+    header {
+        padding-bottom: 30px;
+        background-position: 0 0;
+    }
+    header .description {
+        text-align: left;
+        width: 140px;
+        padding: 0;
+        display: none;
+    }
+    header form {
+        right: 0px;
+        top: 10px;
+    }
+    .sliders img { width: 690px }
+    .brands li {
+        width: 200px;
+        margin-right: 30px;
+        margin-right: 16px;
+    }
+    .brands li:first-child { width: 210px }
+    .brands li img { width: 200px }
+    .widgets .widget { width: 200px }
+    .widgets .widget:last-child,
+    .widgets .widget-large { width: 300px }
+    footer .menu { width: 330px }
+    footer .menu p { margin-bottom: 10px }
+}
+ 
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container,
+    footer .inner { width: 460px }
+    .navbar,
+    header,
+    .navigation,
+    .sliders,
+    .brands,
+    .post,
+    .widgets { margin: 10px }
+    .sliders img { width: 440px }
+    header,
+    nav { border: none }
+    /** */
+    .support span,
+    .support a { text-align: center }
+    .navbar .support { float: inherit }
+    support span {
+        float: left;
+        width: 250px;
+    }
+    .support a {
+        float: right;
+        margin: 0px 0 10px 0;
+    }
+    .support span { text-align: center }
+    .navbar nav { display: none }
+    header { height: 44px }
+    header .description { display: none }
+    header { }
+    header form {
+        float: none;
+        clear: both;
+        margin-top: 70px;
+    }
+    header form input[type=email] { width: 420px }
+    .navigation {
+        clear: both;
+        margin-top: 55px;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+    .navigation li {
+        margin: 0 5px 10px 0px;
+        padding: 0;
+    }
+    .navigation li a {
+        display: block;
+        background: #EEEEEE;
+        margin: 0 0 2px  0;
+        padding: 3px;
+        border-radius: 3px;
+    }
+    .sliders p { margin: 0 }
+    .brands { border: none }
+    .brands li {
+        width: 190px;
+        margin-bottom: 20px;
+        display: block;
+        float: left;
+        margin-left: 0;
+        margin-left: 0;
+    }
+    .brands li img { }
+    .brands li h2 { text-align: center }
+    .brands li:first-child { margin-right: 25px }
+    .post {
+        border: none;
+        background: #FBFBFB;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    .post h2 { font-size: 18px }
+    .widgets .widget { width: 120px }
+    .widgets .widget:last-child,
+    .widgets .widget-large { width: 200px }
+    .widgets .social li { display: block }
+    .widgets input[type=email] { width: 90px }
+    footer .logo {
+        clear: both;
+        display: none;
+    }
+    footer .menu {
+        float: inherit;
+        padding: 0;
+    }
+    footer .menu br { clear: both }
+    footer .menu p { margin-bottom: 20px }
+    footer .inner { padding: 6px }
+    footer span.copy { clear: both }
+    
+}
+ 
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+    .container,
+    footer .inner { width: 300px }
+    .navbar,
+    header,
+    .navigation,
+    .sliders,
+    .brands,
+    .post,
+    .widgets { margin: 10px }
+    .sliders img { width: 280px }
+    header,
+    nav { border: none }
+
+    .support span,
+    .support a {
+        float: inherit;
+        clear: none;
+        text-align: center;
+    }
+    .support a {
+        float: inherit;
+        clear: both;
+        margin: 10px 0;
+    }
+    .support span { text-align: center }
+    .navbar nav { display: none }
+    header { height: 44px }
+    header .description { display: none }
+    header { background-size: 280px 50px }
+    header form {
+        float: none;
+        clear: both;
+        margin-top: 60px;
+    }
+    header form input[type=email] { width: 260px }
+    .navigation {
+        clear: both;
+        margin-top: 45px;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+    .navigation li {
+        display: block;
+        float: inherit;
+        margin: 0 0 2px  0;
+        background: #eee;
+        padding: 2px;
+        border-radius: 2px;
+    }
+    .sliders p { margin: 0 }
+    .brands { border: none }
+    .brands li {
+        margin-bottom: 20px;
+        display: block;
+        float: inherit;
+        margin-right: 0;
+    }
+    .brands li img { }
+    .brands li h2 { text-align: center }
+    .brands li:first-child {
+        margin-left: 30px;
+        padding-bottom: 16px;
+        margin-bottom: 20px;
+        width: 220px;
+        border: 1px solid #eee;
+    }
+    .post {
+        border: none;
+        background: #FBFBFB;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    .post h2 { font-size: 18px }
+    .widgets .widget,
+    .widgets .widget:last-child {
+        float: inherit;
+        width: 200px;
+    }
+    .widgets .social li { display: block }
+    .widgets input[type=email] { width: 90px }
+    footer .logo {
+        clear: both;
+        display: none;
+    }
+    footer .menu {
+        float: inherit;
+        padding: 0;
+    }
+    footer .menu br { clear: both }
+    footer .menu p { margin-bottom: 20px }
+    footer .inner { padding: 6px }
+    footer span.copy { clear: both }
+}
