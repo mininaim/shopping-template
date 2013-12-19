@@ -15,7 +15,7 @@ Description: a CSS3 & HTML5 theme for eCommerce and Shopping Cart web site
 
 
 ## Credits
-Copyright (c) MiniNaim <[mininaim@gmail.com](mininaim@gmail.com)>
+Copyright - mininaim@gmail.com
 [http://mininaim.com](http://mininaim.com)
 
 ### Buy Me A Cup Of Coffee
