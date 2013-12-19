@@ -1,20 +1,20 @@
 ## eShop
 
-Description: a CSS3 & HTML5 theme for eCommerce and Shopping Cart web site
+CSS3 & HTML5 theme for eCommerce and Shopping Cart web site
 
 
-## Features
+### Features:
 
 - Support slider
 - Menus and Navigations
 - Social icons
 - Responsive layout
 
-## Screenshot
+### Screenshot:
 ![Alt text](https://raw.github.com/mininaim/eShop/master/images/screenshot.png "ScreenShot")
 
 
-## Credits
+### Credits:
 Copyright - mininaim@gmail.com
 [http://mininaim.com](http://mininaim.com)
 
