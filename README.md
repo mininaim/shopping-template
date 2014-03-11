@@ -1,4 +1,4 @@
-## eShop
+## Shopping Template 
 
 CSS3 & HTML5 theme for eCommerce and Shopping Cart web site
 
